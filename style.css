@@ -1,0 +1,31 @@
+:root {
+    --gridSize: ;
+    --pixelSize: ;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    border: 1px solid black;
+    height: var(--gridSize);
+    width: var(--gridSize);
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pixel {
+    height: var(--pixelSize);
+    width: var(--pixelSize);
+}
